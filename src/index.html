@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Alvin Abner</title>
+        <meta name="description" content="Web profile" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <header>
+            <nav class= "flex flex-row flex-wrap p-2 fixed bg-cyan-900 w-full">
+                <div class="nav-title float-left">Alvin Abner CV</div>
+                <ul class="nav-menu">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Experiences</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="about">
+                <div class="profile">
+                    <img src="abner.jpeg" alt="Profile Picture" />
+                    <h1>Alvin Abner</h1>
+                    <p class="italic text-center">University of Jember</p>
+                </div>
+                <article class="card">
+                    <h2 class="font-medium leading-tight text-2xl mb-2">About</h2>
+                    <div class="container-about">
+                        <div class="about-left">
+                            <p>Hi! My name is Abner. I'm an Informatics student, Faculty of Computer Science, University of Jember, Indonesia. I love to learn new things and gain new experience. I like new challenges, especially those related to logic. Also I will try to give my best to solve any problems.</p>
+                        </div>
+                        <div class="about-right">
+                            <div class="container-about-grid">
+                                <div class="item-l">Age</div>
+                                <div class="item-r">: 19 Years old</div>
+                                <div class="item-l">Email</div>
+                                <div class="item-r">: alvinabnert@gmail.com</div>
+                                <div class="item-l">City</div>
+                                <div class="item-r">: Sidoarjo, East Java</div>
+                                <div class="item-l">Language</div>
+                                <div class="item-r">: English - Indonesia</div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="card">
+                <h2>Skills</h2>
+                <article class="skill-container">
+                    <div class="grid-item">Python</div>
+                    <div class="grid-item">HTML, CSS</div>
+                    <div class="grid-item">Javascript</div>
+                    <div class="grid-item">ReactJS</div>
+                </article>
+            </section>
+            <section class="card">
+                <h2>Experience</h2>
+                <article>
+                    <div class="card-experiences">
+                        <p>2021 - Present</p>
+                        <h4>Himpunan Mahasiswa Informatika</h4>
+                        <h5>Head of Content Creator Sub Division</h5>
+                        <ul>
+                            <li>Editing News</li>
+                            <li>Create feed and content for social media</li>
+                            <li>Create article for website organization</li>
+                            <li>Managing the organization's social media</li>
+                        </ul>
+                    </div>
+                    <div class="card-experiences">
+                        <p>2021 - Present</p>
+                        <h4>Programming Laboratory</h4>
+                        <h5>Treasurer and Lab Asistant</h5>
+                        <ul>
+                            <li>Managing organizational finances</li>
+                            <li>Teach certain subjects in the practical class</li>
+                            <li>Help lecturers in practical classes</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+            <section class="card h-full gradient-form" id="form-submit">
+                <h2>Contact Me</h2>
+                <form class="form text-white flex justify-center">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" />
+
+                    <label for="message">Message:</label>
+                    <textarea class="md:w-100" id="message" rows="4" cols="50">Write your message here...</textarea>
+                    <button id="submit-form">Submit</button>
+                </form>
+            </section>
+            <footer class="ba">
+                <h6>Created by Alvin Abner</h6>
+            </footer>
+        </main>
+    </body>
+</html>

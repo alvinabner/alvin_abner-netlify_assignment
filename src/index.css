@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: quicksand, calibri;
+    background-color: #344085;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-title {
+    margin: 10px 5px 10px 50px;
+    justify-content: center;
+    align-self: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-menu {
+    margin-left: auto;
+    align-self: center;
+}
+
+.nav-menu li {
+    float: left;
+    margin: 0px 10px 0px 0px;
+    padding: 10px;
+    font-size: 15px;
+    list-style: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.profile {
+    background-color: rgb(38, 51, 87);
+    padding-top: 7em;
+    padding-bottom: 1.5em;
+}
+
+.profile > img {
+    border-radius: 50%;
+    width: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile > h1 {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    background-color: rgb(101, 126, 170);
+    border-radius: 10px;
+    padding: 10px 20px 30px 20px;
+    margin: 20px 5% 40px 5%;
+}
+
+.container-about {
+    display: flex;
+}
+
+.about-left {
+    flex: 1.5 1 0;
+    margin: 0px 40px 0px 0px;
+}
+
+.about-left > p {
+    margin: 0px;
+}
+
+.about-right {
+    flex: 1 1 0;
+}
+
+.container-about-grid {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: auto;
+    gap: 10px;
+    grid-template-areas: 
+    "a b";
+}
+
+.card > h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+section > h2 {
+    text-align: center;
+}
+
+.skill-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+}
+
+.card-experiences > p {
+    float: right;
+    font-style: italic;
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+}
+
+.card-experiences > h4 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.card-experiences > h5 {
+    margin: 8px 0px;
+    font-style: italic;
+}
+
+.card-experiences > ul {
+    margin: 15px 0px 30px 0px;
+}
+
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin: 20px 0px 5px 0px;
+    display: block;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+textarea {
+    border-radius: 5px;
+    font-family: quicksand, arial;
+    outline: none;
+    border: none;
+}
+
+button {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+}   
+
+@media only screen and (min-width: 768px) {
+    body {
+      background-color: rgb(29, 33, 66);
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    .container-about {
+        display: block;
+    }
+
+    .container-about-grid {
+        margin-top: 20px;
+    }
+        
+}
